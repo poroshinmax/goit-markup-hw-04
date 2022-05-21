@@ -12,8 +12,8 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -56,10 +56,10 @@
           </ul>
         </nav>
         <div class="header-connect">
-          <a href="mailto:info@devstudio.com" class="header-mail accent"
+          <a href="mailto:info@devstudio.com" class="header-mail link accent"
             >info@devstudio.com</a
           >
-          <a href="tel:+380961111111" class="header-tel accent"
+          <a href="tel:+380961111111" class="header-tel link accent"
             >+38 096 111 11 11</a
           >
         </div>
@@ -94,8 +94,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Технокряк</h2>
-              <p class="product-img-name">Веб-сайт</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Технокряк</h2>
+                <p class="product-img-name">Веб-сайт</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -104,10 +106,12 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">
-                Постер New Orlean vs Golden Star
-              </h2>
-              <p class="product-img-name">Дизайн</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="product-img-name">Дизайн</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -116,8 +120,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Ресторан Seafood</h2>
-              <p class="product-img-name">Приложение</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Ресторан Seafood</h2>
+                <p class="product-img-name">Приложение</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -126,8 +132,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Проект Prime</h2>
-              <p class="product-img-name">Маркетинг</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Проект Prime</h2>
+                <p class="product-img-name">Маркетинг</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -136,8 +144,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Проект Boxes</h2>
-              <p class="product-img-name">Приложение</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Проект Boxes</h2>
+                <p class="product-img-name">Приложение</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -146,8 +156,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Inspiration has no Borders</h2>
-              <p class="product-img-name">Веб-сайт</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Inspiration has no Borders</h2>
+                <p class="product-img-name">Веб-сайт</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -156,8 +168,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Издание Limited Edition</h2>
-              <p class="product-img-name">Дизайн</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Издание Limited Edition</h2>
+                <p class="product-img-name">Дизайн</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -166,8 +180,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Проект LAB</h2>
-              <p class="product-img-name">Маркетинг</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Проект LAB</h2>
+                <p class="product-img-name">Маркетинг</p>
+              </div>
             </li>
             <li class="product-gallery">
               <img
@@ -176,8 +192,10 @@
                 width="370"
                 class="product-gallery-img"
               />
-              <h2 class="product-img-title">Growing Business</h2>
-              <p class="product-img-name">Приложение</p>
+              <div class="gallery-card">
+                <h2 class="product-img-title">Growing Business</h2>
+                <p class="product-img-name">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -189,21 +207,16 @@
           ><span class="footer-logo-first-part">Web</span>Studio
         </a>
         <address class="footer-address">
-          <ul class="footer-list link list">
-            <li>
+          <ul class="footer-list link list"> <li class="footer-list-item">
               <p class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</p>
             </li>
-            <li>
-              <a href="mailto:info@example.com" class="footer-mail accent"
-                >info@example.com</a
+            <li class="footer-list-item">
+              <info@example.com href="mailto:info@example.com" class="footer-mail accent">info@example.com</a
               >
             </li>
-            <li>
-              <a href="tel:+380991111111" class="footer-tel accent"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
+            <li class="footer-list-item">
+              <a href="tel:+380991111111" class="footer-tel accent">+38 099 111 11 11</a>
+            </li></ul>
         </address>
       </div>
     </footer>
