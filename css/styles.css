@@ -347,7 +347,39 @@ img {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
+/* ----------------- clients ----------------- */
+.clients {
+  background: #ffffff;
+}
+.clients.container {
+}
+.clients-title {
+  margin-bottom: 50px;
+  text-align: center;
 
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.clients-list {
+  display: flex;
+}
+.clients-item {
+}
+.clients-item:not(:first-child) {
+  margin-left: 30px;
+}
+.clients-link {
+  display: flex;
+  padding: 16px 32px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.icon {
+}
 /* -------------footer------------------------------------------- */
 .footer {
   background: #2f303a;
@@ -387,6 +419,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
 /* -----------------portfolio----------------- */
 .main-portfolio {
   background-color: #ffffff;
