@@ -339,16 +339,20 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: #ffffff;
 }
-.team-soc-link {
-  /* fill: #afb1b8; */
-}
+
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--accent-color);
+}
+.team-soc-link:hover .team-soc-icoc,
+.team-soc-link:focus .team-soc-icoc {
   fill: #ffffff;
 }
+.team-soc-icoc {
+  fill: #afb1b8;
+}
+
 /* ----------------- clients ----------------- */
 .clients {
   background: #ffffff;
@@ -444,9 +448,9 @@ img {
   margin-left: 70px;
 }
 .footer-soc-title {
+  margin-top: 12px;
   margin-bottom: 20px;
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -473,8 +477,12 @@ img {
   background: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
-.footer-soc-icoc {
-  color: #ffffff;
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
+}
+.footer-soc-icon {
 }
 
 /* -----------------portfolio----------------- */
